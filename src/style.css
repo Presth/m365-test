@@ -1,0 +1,21 @@
+*{
+    transition: all 0.3s ease-in-out;
+}
+
+.App.dark{
+    background: black !important;
+}
+
+.App.dark .bg-white {
+    background-color: black !important;
+    color: azure;
+}
+
+.App.dark [class*="bg-gray-"]{
+    background-color: #444 !important;
+    color: azure;
+}
+
+.App.dark .bg-primary {
+    color: azure !important;
+}
